@@ -57,3 +57,6 @@ class Table:
   # def delete_row_by_id(self, row_id):
 
   # def filter_records(self, column_name=None, column_value=None, id=None):
+
+if(__name__=="__main__"):
+  # Stuff to do

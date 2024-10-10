@@ -50,6 +50,10 @@ class Table:
     for column in self.column_names:
       print(f"Table : {self.table_name} COLUMN", column.__dict__)
   
-  def insert_row(self, payload):
+  # def insert_row(self, payload):
     
+  # def get_all_rows(self):
 
+  # def delete_row_by_id(self, row_id):
+
+  # def filter_records(self, column_name=None, column_value=None, id=None):

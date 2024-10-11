@@ -1,0 +1,13 @@
+storage_data : {'identity_table': {'table_statistics': [<__main__.Column object at 0x106cfd4f0>, <__main__.Column object at 0x106d65ac0>, <__main__.Column object at 0x106ce0b30>], 'table_data': [{'name': 'Ram', 'age': 52, 'salary': 3000, 'id': UUID('d0d89208-87ca-11ef-b9a3-6a2f678e8d26')}, {'name': 'Shyam', 'age': 43, 'salary': 600, 'id': UUID('d0d892b2-87ca-11ef-b9a3-6a2f678e8d26')}, {'name': 'Karan', 'age': 65, 'salary': 70000, 'id': UUID('d0d892ee-87ca-11ef-b9a3-6a2f678e8d26')}, {'name': 'Lakshmi', 'age': 32, 'salary': 100000, 'id': UUID('d0d89316-87ca-11ef-b9a3-6a2f678e8d26')}], 'metadata_info': {'created_at': datetime.datetime(2024, 10, 11, 17, 47, 42, 877048)}}}
+{'name': 'Ram', 'age': 52, 'salary': 3000, 'id': UUID('d0d89208-87ca-11ef-b9a3-6a2f678e8d26')}
+{'name': 'Shyam', 'age': 43, 'salary': 600, 'id': UUID('d0d892b2-87ca-11ef-b9a3-6a2f678e8d26')}
+{'name': 'Karan', 'age': 65, 'salary': 70000, 'id': UUID('d0d892ee-87ca-11ef-b9a3-6a2f678e8d26')}
+{'name': 'Lakshmi', 'age': 32, 'salary': 100000, 'id': UUID('d0d89316-87ca-11ef-b9a3-6a2f678e8d26')}
+IDENTITY TABLE  None
+insert 1 output :  [{'name': 'Ram', 'age': 52, 'salary': 3000, 'id': UUID('d0d89208-87ca-11ef-b9a3-6a2f678e8d26')}]
+insert 2 output :  [{'name': 'Shyam', 'age': 43, 'salary': 600, 'id': UUID('d0d892b2-87ca-11ef-b9a3-6a2f678e8d26')}]
+insert 3 output :  [{'name': 'Karan', 'age': 65, 'salary': 70000, 'id': UUID('d0d892ee-87ca-11ef-b9a3-6a2f678e8d26')}]
+insert 4 output :  [{'name': 'Lakshmi', 'age': 32, 'salary': 100000, 'id': UUID('d0d89316-87ca-11ef-b9a3-6a2f678e8d26')}]
+[INFO]DELETING TABLE : identity_table
+storage_data : {}
+DELETE VERIFICATION :  None
